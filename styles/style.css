@@ -130,6 +130,27 @@ header{
     font-size: 30px;
     margin-top: 1%;
 }
+/* description section */
+.description{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.des-img{
+    width: 720px;
+    height: 500px;
+}
+.introduction{
+    width: 670px;
+    height: 450px;
+    overflow-y: scroll;
+}
+.kst{
+    font-size: 25px;
+    color: #FF900E;
+}
 /* facts section */
 .facts-container{
     margin-bottom: 100px;
