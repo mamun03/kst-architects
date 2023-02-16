@@ -16,9 +16,13 @@ h2{
 }
 body{
     font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav{
+    width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,15 +89,15 @@ header{
 .dark-3{
     color: #727272;
 }
+/* feature section */
 .feature{
     color: #FF900E;
 }
-/* features section */
 .features{
     display: flex;
     justify-content: center;
     column-gap: 200px;
-   margin-top: 150px;
+   margin: 100px 0;
 }
 .features-description{
     width: 486px;
@@ -125,6 +129,54 @@ header{
 .exp-btn{
     font-size: 30px;
     margin-top: 1%;
+}
+/* facts section */
+.facts-container{
+    margin-bottom: 100px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+.facts-head{
+    margin-bottom: 0%;
+
+}
+.facts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.fact{
+    display: grid;
+    justify-items: center;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    padding: 20px;
+}
+.fact-count{
+    margin: 2% 0;
+}
+/* sponsor section */
+.sponsors{
+    margin-bottom: 100px;
+}
+.sponsor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sponsor-head{
+    margin-bottom: 0%;
+}
+.why-sponsor{
+    margin: 30px 0;
+}
+.sponsor-logos{
+    display: flex;
+    justify-content: space-between;
+}
+.sponsor-logo{
+   filter: grayscale(100%);
 }
 
 
