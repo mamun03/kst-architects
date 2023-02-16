@@ -179,5 +179,15 @@ header{
    filter: grayscale(100%);
 }
 
+/* footer */
+.endings{
+    margin: 0 0 150px 0;
+    width: 1440px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+    background-color: #f9e8d5;
+}
+
 
 
